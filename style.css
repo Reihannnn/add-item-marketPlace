@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+}
+
+header {
+  margin-left: 80px;
+  display: flex;
+}
+.judul-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: "poppins";
+  align-items: center;
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+}
+
+.card-count {
+  position: absolute;
+  right: -7px;
+  top: 20px;
+  opacity: 0.9;
+  z-index: 10;
+  margin-top: 4px;
+  background-color: red;
+  border-radius: 100%;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.info{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.input-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 94%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.btn {
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+#input-nama-produk {
+  width: 300px;
+}
+
+article {
+  width: 200px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.3);
+  border-radius: 20px 20px 10px 10px;
+  padding-bottom: 20px;
+}
+.img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.judul-produk {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.harga-produk {
+  margin: 0px 0px 10px 10px;
+}
+
+.cashback-produk {
+  padding: 10px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  margin: 10px 10px 0px 10px;
+  font-weight: 800;
+  opacity: 0.9;
+}

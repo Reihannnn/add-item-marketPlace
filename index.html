@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tokoped</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/index.js" defer></script>
+
+  </head>
+  <body>
+    <header>
+      <div class="judul-icon">
+        <h1 class="title">ReihanPED</h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          fill="currentColor"
+          class="bi bi-basket2"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z"
+          />
+          <path
+            d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z"
+          />
+        </svg>
+        <div class="card-count">0</div>
+      </div>
+    </header>
+    <div class="input-container">
+      <h2>Tambah Data</h2>
+      <form id="form-input">
+          <div class="form-group">
+              <label for="nameOfProduk">Nama Produk :</label>
+              <input type="text" id="nameOfProduk" name="nameOfProduk">
+          </div>
+          <div class="form-group">
+              <label for="hargaOfProduk">Harga Produk :</label>
+              <input type="text" id="hargaOfProduk" name="hargaOfProduk" >
+          </div>
+          <div class="form-group">
+              <label for="message">Gambar produk:</label>
+              <input type="text" id="imageOfProduk">
+          </div>
+          <div class="form-group">
+            <label for="message">Cashback produk:</label>
+            <input type="text" id="cashbackOfProduk">
+          </div>
+          <button id="btn" class="btn" type="submit">add</button>
+      </form>
+  </div>
+    <div class="info">
+      <h1>Tersedia</h1>
+    </div>
+    <div class="main-container"></div>
+  </body>
+</html>
